@@ -1,4 +1,8 @@
-
+/* @font-face {
+    font-family: myMM-font;
+    src: url(https://raw.githack.com/zayar-1994/mmwebfonts/main/MyanmarGantGaw.ttf);
+    }
+*{font-family: "myMM-font", sans-serif;} */
 
 /* Post Feed Style Start */
 .post-wrapper{
@@ -73,3 +77,7 @@
     margin-bottom: 0;
     padding-bottom: 15px !important;
 }
+
+
+/*  Only on Blogger */
+h2.date-header{display: none;}
