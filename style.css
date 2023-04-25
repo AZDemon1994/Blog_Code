@@ -79,8 +79,39 @@
 }
 
 
-/*  Only on Blogger */
+/*  Home page Blog Section Style */
+.date-outer{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
 h3.post-title a{ 
 	text-decoration : none;
 	color: #fff;
+}
+body.home-page .post-body{
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+body.home-page .post-body::after {
+    content: "";
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(27,31,34);
+    background: linear-gradient(0deg,
+     rgba(27,31,34,1) 0%,
+     rgba(27,31,34,1) 48%,
+     rgba(27,31,34,0.7) 77%,
+     rgba(27,31,34,0) 100%
+    );
+  }
+body.home-page .post-body .readmore-container{
+    position: absolute;
+    bottom: 10px;
+    z-index: 100;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
