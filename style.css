@@ -80,4 +80,7 @@
 
 
 /*  Only on Blogger */
-h2.date-header{display: none;}
+h3.post-title a{ 
+	text-decoration : none;
+	color: #fff;
+}
