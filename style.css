@@ -98,12 +98,14 @@ h3.post-title a{
 	text-decoration : none;
 	color: #fff;
 }
-body.home-page .post-body{
+body.home-page .post-body,
+body.label-page .post-body{
     height: 200px;
     overflow: hidden;
     position: relative;
 }
-body.home-page .post-body::after {
+body.home-page .post-body::after,
+body.label-page .post-body::after {
     content: "";
     height: 100px;
     width: 100%;
@@ -117,7 +119,8 @@ body.home-page .post-body::after {
      rgba(27,31,34,0) 100%
     );
   }
-body.home-page .post-body .readmore-container{
+body.home-page .post-body .readmore-container,
+body.label-page .post-body .readmore-container{
     position: absolute;
     bottom: 10px;
     z-index: 100;
