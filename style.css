@@ -1,0 +1,75 @@
+
+
+/* Post Feed Style Start */
+.post-wrapper{
+    background-color: #1b1f22;
+    color: #fefefe;
+}
+.post-wrapper .sidebar{
+    padding: 20px;
+    padding-left: 30px;
+}
+.post-wrapper .sidebar h5{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 10px;
+
+}
+.post-wrapper .sidebar h5 span{
+    color: palevioletred;
+    margin-right: 5px;
+    vertical-align: -3px;
+    font-weight: 900;
+    
+}
+.post-wrapper .sidebar ul{
+    list-style: none;
+}
+.post-wrapper .sidebar ul li a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 10px;
+}
+.post-wrapper .post-feed{
+    box-shadow: -5px 0 5px black;
+}
+
+
+
+
+/* Footer Style Start */
+.footer{
+    z-index: 100;
+}
+.footer > .row{
+    padding: 25px;
+}
+.footer > .row h4.quote-title{
+    color: white;
+}
+.footer > .row h4.quote-title span{
+    color: white;
+    font-size: 38px;
+    font-weight: 900;
+    vertical-align: -8px;
+    margin-right: 10px;
+}
+.footer > .row .quote{
+    color: gray;
+    padding-right: 90px;
+    text-align: center;
+}
+.footer .label-widget h4{
+    margin-left: 20px;
+}
+.footer .label-widget ul{
+    list-style: none;
+}
+.footer .label-widget ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.footer .crd-feed > p{
+    margin-bottom: 0;
+    padding-bottom: 15px !important;
+}
