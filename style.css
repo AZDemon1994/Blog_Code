@@ -99,13 +99,15 @@ h3.post-title a{
 	color: #fff;
 }
 body.home-page .post-body,
-body.search-page .post-body{
+body.search-page .post-body,
+body.label-page .post-body{
     height: 200px;
     overflow: hidden;
     position: relative;
 }
 body.home-page .post-body::after,
-body.search-page .post-body::after {
+body.search-page .post-body::after,
+body.label-page .post-body::after {
     content: "";
     height: 100px;
     width: 100%;
@@ -120,7 +122,8 @@ body.search-page .post-body::after {
     );
   }
 body.home-page .post-body .readmore-container,
-body.search-page .post-body .readmore-container{
+body.search-page .post-body .readmore-container,
+body.label-page .post-body .readmore-container{
     position: absolute;
     bottom: 10px;
     z-index: 100;
